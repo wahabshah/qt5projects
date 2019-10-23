@@ -19,7 +19,16 @@ Usecases_check_available_groceries::Usecases_check_available_groceries()
 
 void Usecases_check_available_groceries::one_or_more_grocery_items_available()
 {
-    QVERIFY2(true,"test failed");
+    // Given there is a list of available grocery items
+    QFAIL("not implemented");
+    // And one or more grocery items are actually available
+    QFAIL("not implemented");
+   // When I check available groceries
+    QFAIL("not implemented");
+   // Then I am given the list of available grocery items
+   QFAIL("not implemented");
+   // And the grocery items are ordered by name, ascending
+   QFAIL("not implemented");
 }
 
 QTEST_MAIN(Usecases_check_available_groceries)
